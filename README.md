@@ -17,13 +17,13 @@ anyway current implementation should take
 ```
 n! - ¡n + 1
 ```
-worst case. There is no validation if the input either. Call it like:
+worst case. There is no validation of the input either. Call it like:
 ```clojure
-(dearenged-pairs #{:a :b :c :d :e :f :g})
+(pair-up #{:a :b :c :d :e :f :g})
 ```
 or even
 ```clojure
-(dearenged-pairs #{"fred" "virag" "ceri" "benedek" "matruska" "regi" "pedjar"})
+(pair-up #{"fred" "virag" "ceri" "benedek" "matruska" "regi" "pedjar"})
 ```
 the result should be something like:
 ```
